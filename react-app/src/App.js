@@ -1,5 +1,13 @@
+import Poster from "./Poster";
+import navBar from "./navBar";
+
 function App() {
-  return (null);
+  return (
+    <>
+      <Poster />
+      <navBar />
+    </>
+  );
 }
 
 export default App;
