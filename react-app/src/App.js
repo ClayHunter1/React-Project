@@ -1,5 +1,4 @@
 import React, { useState, useEffect} from 'react';
-import Poster from "./Poster";
 import navBar from "./NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -22,7 +21,6 @@ function App() {
 
   return (
     <>
-      <Poster />
       <navBar />
       <div className='container-fluid movie-app'>
         <div className='row'>
